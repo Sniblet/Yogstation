@@ -108,6 +108,11 @@
 	description = "<span class='nicegreen'>I can't stop here. If I continue my research, I could become immortal!</span>\n"
 	mood_change = 10
 	hidden = TRUE
+	
+/datum/mood_event/changeling
+	description = "<span class='nicegreen'>Next to our hunger, all else is insignificant.</span>\n" //if i knew how to i'd say "we feel only hunger" and block every other emote
+	mood_change = 40
+	hidden = TRUE
 
 /datum/mood_event/family_heirloom
 	description = "<span class='nicegreen'>My family heirloom is safe with me.</span>\n"
